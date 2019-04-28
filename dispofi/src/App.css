@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html{
+max-height : 100%;
+max-width : 100%
+}
+
+.body{
+  max-height : 100%;
+  max-width : 100%;
+  background: linear-gradient( rgba(2,0,36,1) 0%, rgb(35, 62, 151) 35%, rgba(0,212,255,1) 100%);
+  font-family: 'Oswald', sans-serif;
+  padding : 10px
+}
+
+h1{
+  margin : 0;
+  color :white;
+  text-align: center;
+}
+
+.mention{
+font-size : 10px
+}
+
+.title{
+border : 3px solid black;
+padding :5px;
+background : white;
+}
+.titleSrc{
+float : left
+}
+
+.form{
+text-align: center;
+border : 4px black double;
+background : white;
+width : 50%;
+margin : auto
+}
+
+.simulator{
+text-align: center;
+border : 4px black double;
+background : white;
+width : 50%;
+margin : auto;
+}
+
+.test{
+  margin-bottom : 5px;
+  background : teal;
+  color : white
+}
+
+.result{
+  font-size : 15px;
+  color : teal
+}
